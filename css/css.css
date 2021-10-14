@@ -28,5 +28,14 @@ body{
 }
 
 .using-viewport{
-    /* vw (Viewport width) and vh(viewport height)  */
+    /* vw (Viewport width) and vh(viewport height) respond to the size of the browser window  */
+    background-color: royalblue;
+    width:40vw;
+    height:40vh;
+}
+.using-percentage{
+    /* Percentage responds to the element's parent, in this caser the element with the class using .viewport*/
+    background-color: azure;
+    width:50%;
+    height:50%;
 }
